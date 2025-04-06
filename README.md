@@ -1,2 +1,14 @@
-# n8n-selfhost-hormigasais-
-Nodo autoalojado de automatización con n8n para el ecosistema HormigasAIS. Integración con GitHub, Slack, y flujos personalizados.
+# n8n-selfhost-hormigasais
+
+Repositorio base para alojar tu propia instancia de **n8n** integrada al ecosistema de **HormigasAIS**.  
+Este nodo actúa como cerebro automatizador de flujos entre GitHub, Slack, correos y más.
+
+## Requisitos
+- Docker + Docker Compose
+- .env configurado
+- Un subdominio (opcional)
+
+## Uso rápido
+```bash
+cp .env.example .env
+docker-compose up -d.
