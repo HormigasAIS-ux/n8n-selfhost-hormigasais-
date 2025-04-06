@@ -11,4 +11,4 @@ Este nodo actúa como cerebro automatizador de flujos entre GitHub, Slack, corre
 ## Uso rápido
 ```bash
 cp .env.example .env
-docker-compose up -d.
+docker-compose up -d
