@@ -1,13 +1,35 @@
-n8n-selfhost-hormigasais-/
+# n8n-selfhost-hormigasais-
 
-├── .github/                         # Flujos de trabajo CI/CD
-├── github.com/                     # Documentación externa y referencias
-├── check-user.js                   # Script de control de usuarios
-├── docker-compose.yml              # Orquestador del entorno
-├── .env.ejemplo                    # Configuración de entorno base
-├── README.md                       # Descripción general del repositorio
-├── README.md (versión personalizada para HormigasAIS) 
-├── package.json                    # Configuración del proyecto + hooks + campos personalizados
-├── protectedZonez                  # Campo en package.json (referencia interna)
-├── protectedZonezmeta             # Campo en package.json (explicación extendida)
-├── scripts.prepare (hook Husky)   # Inicialización del entorno de protección
+Este repositorio forma parte del ecosistema de HormigasAIS y permite autoalojar n8n con integraciones personalizadas.  
+Se ha diseñado para facilitar flujos de automatización, análisis y monitoreo con identidad propia.
+
+---
+
+## Seguridad
+
+![Seguridad Activa](https://img.shields.io/badge/Zonas%20protegidas-activo-blue)  
+Este proyecto cuenta con zonas protegidas y validación automatizada.  
+Consulta la [Política de Seguridad](./SECURITY.md) para más detalles.
+
+---
+
+## Contribuciones
+
+¿Te gustaría colaborar con este proyecto?  
+Consulta nuestra [Guía de Contribución](./CONTRIBUTING.md) para conocer el proceso, reglas de commit y validaciones activas.
+
+---
+
+## Lenguaje y herramientas
+
+- Node.js
+- JavaScript
+- Docker
+- n8n
+- GitHub Actions
+
+---
+
+## HormigasAIS by Cristhiam Quiñonez
+
+*"La mente curiosa y la colaboración humana nos guían en cada línea de código."*
