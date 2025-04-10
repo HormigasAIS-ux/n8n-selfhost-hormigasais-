@@ -1,19 +1,14 @@
-// check-user.js
-const { execSync } = require('child_process');
+# .github/workflows/check-protected-user.yml
+name: Validar autor del commit
 
-function getCommitAuthor() {
-  try {
-    return execSync('git config user.name').toString().trim();
-  } catch (err) {
-    return '';
-  }
-}
+on: [push, pull_request]
 
-const commitAuthor = getCommitAuthor();
+jobs:
+  validate-user:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v3
 
-if (commitAuthor.toLowerCase().includes("zakky") || commitAuthor.toLowerCase().includes("zakku116")) {
-  console.log("\n[⚠️ Bloqueado] El usuario Zakky/zakku116 no tiene permiso para hacer commit en este proyecto.");
-  process.exit(1);
-} else {
-  process.exit(0);
-}
+      - name: Validar autor del commit
+        run: node check-user.js
