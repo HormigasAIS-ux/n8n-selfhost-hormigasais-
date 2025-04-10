@@ -1,0 +1,5 @@
+"protectedZonezmeta": {
+  "github.com": "Directorio que contiene referencias técnicas, vínculos externos y estructuras documentales claves para los flujos de integración.",
+  ".github/workflows": "Contiene los workflows de GitHub Actions que orquestan el ciclo de vida de automatizaciones y validaciones CI/CD.",
+  "check-user.js": "Script de control que bloquea intentos de commit por parte de usuarios no autorizados. Actúa como primera línea de defensa del sistema."
+}
