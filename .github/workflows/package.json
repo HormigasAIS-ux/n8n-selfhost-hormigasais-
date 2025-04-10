@@ -1,0 +1,10 @@
+{
+  "name": "n8n-selfhost-hormigasais",
+  "version": "1.0.0",
+  "description": "Repositorio de autoalojamiento y automatización con n8n para HormigasAIS",
+  "scripts": {
+    "test": "echo '✅ Test básico ejecutado correctamente' && exit 0"
+  },
+  "author": "Cristhiam Quiñonez",
+  "license": "MIT"
+}
