@@ -1,0 +1,24 @@
+{
+  "name": "n8n-selfhost-hormigasais",
+  "version": "1.0.0",
+  "description": "Repositorio autoalojado de n8n para integraciones IA y automatización por HormigasAIS.",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^9.0.0"
+  },
+  "protectedZones": [
+    "github.com",
+    ".github/workflows",
+    "check-user.js"
+  ],
+  "protectedZonesMeta": {
+    "github.com": "Directorio de referencia y documentación enlazada.",
+    ".github/workflows": "Contiene flujos de CI/CD críticos para despliegues automatizados.",
+    "check-user.js": "Script de verificación para impedir cambios no autorizados, especialmente de usuarios filtrados."
+  },
+  "author": "HormigasAIS-ux",
+  "license": "MIT"
+}
