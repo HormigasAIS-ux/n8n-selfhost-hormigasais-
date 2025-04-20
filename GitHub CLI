@@ -1,0 +1,3 @@
+gh milestone create "Fase Cloud Temporal (abril 2025)" \
+  --description "Fase experimental con entorno gratuito n8n.cloud. Se documentan configuraciones, integraciones y evaluación de transición al entorno autoalojado." \
+  --due-date 2025-05-01
