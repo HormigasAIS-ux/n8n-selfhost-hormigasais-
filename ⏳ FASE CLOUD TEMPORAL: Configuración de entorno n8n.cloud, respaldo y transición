@@ -1,0 +1,33 @@
+gh issue create \
+  --title "⏳ [FASE CLOUD TEMPORAL] Uso de entorno n8n.cloud - Backup & Transición" \
+  --body "### Contexto  
+Actualmente estamos utilizando el entorno gratuito de [n8n.cloud](https://app.n8n.cloud/manage) con un periodo de 14 días. Este issue documenta el progreso actual, tareas pendientes y prepara la estructura para backup o transición futura.
+
+---
+
+### Tareas clave (checklist)
+- [x] Integración inicial del flujo \`.n8n.json\`
+- [x] Configuración del entorno Slack
+- [x] Autenticación mediante credencial temporal
+- [ ] Revisión de vínculos a \`criswarriortv\` y \`El Novato\`
+- [ ] Exportación de flujos como respaldo local (\`.json\`)
+- [ ] Evaluación de migración a self-host o \`n8n-selfhost-hormigasais\`
+- [ ] Validación de parámetros en \`config.env.example\`
+
+---
+
+### Fecha límite estimada:  
+**2025-05-01**  
+(Este es el último día del periodo de prueba gratuito.)
+
+---
+
+### Responsable:  
+@Thrumanshow
+
+---
+
+Este issue también actúa como mecanismo de seguridad y trazabilidad para proteger el flujo, evitar confusiones futuras y establecer buenas prácticas de documentación." \
+  --label "infraestructura,n8n,⏳ tiempo limitado" \
+  --milestone "Fase Cloud Temporal (abril 2025)" \
+  --assignee Thrumanshow
